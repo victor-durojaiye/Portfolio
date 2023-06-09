@@ -67,11 +67,11 @@ export default function Hero() {
             </div>
             <div className='flex md:flex-row flex-col justify-between w-full pt-16'>
                 <div onMouseEnter={textEnter} onMouseLeave={textLeave} className='w[330px]'>
-                    <p className="text-left">I am currently studying full-stack <br/>software development at Washington University in St.Louis. In my <br/> free time, I currently enjoy learning about deep learning AI. <br/> I hope to work with a family  that delivers reinnovative experiences to people <br/> across the world!</p>
+                    <p className="text-left">I am currently studying full-stack software development <br/> at Washington University in St. Louis. In my free time,<br/>  I enjoy learning about deep learning AI. I hope to work <br/>with a family that delivers reinnovative experiences to people <br/> across the world!</p>
                 </div>
 
                 <div className='md:w-[500px] w-[370px] flex flex-col gap-6 items-start'>
-                    <p onMouseEnter={textEnter} onMouseLeave={textLeave} className="text-right">Programming Languages: C++, Java, JavaScript, Python <br/> Frameworks: React, Next, PHP, Node JS, HTML, Tailwind CSS <br/>Databases: MySQL, MongoDB</p>
+                    <p onMouseEnter={textEnter} onMouseLeave={textLeave} className="text-right">Programming Languages: C++, Java, JavaScript, Python <br/> Frameworks: React, Next, PHP, Node JS, HTML, Tailwind CSS <br/>Databases: MySQL, MongoDB <br/> Servers: AWS, Vercel</p>
                     {/* <Button 
                     onClick={() => {}}
                     label='Ongoing and previous projects'
